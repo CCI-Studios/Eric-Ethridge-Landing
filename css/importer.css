@@ -124,6 +124,9 @@ body {
   @media (max-width: 860px) {
     .header {
       background-position: 85% center; } }
+  @media (max-width: 480px) and (max-height: 812px) {
+    .header {
+      background-attachment: scroll; } }
   .header .content {
     position: absolute;
     top: 50%;
@@ -211,6 +214,9 @@ body {
   @media (max-width: 860px) {
     .block--bg-image {
       background-position: 31% center; } }
+  @media (max-width: 480px) and (max-height: 812px) {
+    .block--bg-image {
+      background-attachment: scroll; } }
 
 .block--newsletter {
   clear: both;

@@ -191,6 +191,10 @@ body
     {
       background-position: 85% center;
     }
+    @media (max-width: 480px) and (max-height: 812px)
+    {
+      background-attachment: scroll;
+    }
   }
 
   .content
@@ -337,6 +341,10 @@ body
     @media (max-width: 860px)
     {
       background-position: 31% center;
+    }
+    @media (max-width: 480px) and (max-height: 812px)
+    {
+      background-attachment: scroll;
     }
   }
 }
